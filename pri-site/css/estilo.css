@@ -1,31 +1,42 @@
 body {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  background: #00000070;
+  height: 100vh;
+  background-image: url("../images/owari1-.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.caixa {
+  border: none;
 }
 
 .foto {
   height: 200px;
-  margin-left: 45%;
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .titulo {
   text-align: center;
+  color: rgba(255, 0, 0, 0.85);
 }
 
 label,
 input,
 button {
+  margin: 0 auto;
   display: block;
 }
 
 label {
   text-align: center;
+  color: rgba(255, 0, 0, 0.85);
+  font-size: 20px;
 }
 
-input {
-  margin: 0 auto;
-}
 button {
   margin: 0 auto;
   padding: 10px 15px;
@@ -40,4 +51,42 @@ button {
 button:hover {
   background: rgb(52, 213, 12);
   color: rgb(255, 255, 255);
+}
+
+.sexo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.sexo label {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.sexo label input {
+  margin-left: 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 33%;
+}
+
+.supImf {
+  text-align: center;
+}
+.anime3 {
+  width: 330px;
+}
+
+input {
+  padding: 5%;
 }

@@ -8,31 +8,45 @@
     <title>Document</title>
   </head>
   <body>
-    <fieldset class="caixa">
-      <img src="images/guto.jpg" class="foto" />
-      <h1 class="titulo">Formulario</h1>
-      <form action="#" class="form">
-        <label for="Email"> Email: </label>
-        <input type="text" />
-        <label for="senha">Senha:</label>
-        <input type="password" />
-        <label for="data">Data:</label>
-        <input type="date" />
-        <label for=""
-          >Masculino
-          <input type="radio" name="s" value="masculino" />
-        </label>
-        <label for=""
-          >Feminino
-          <input type="radio" name="s" value="feminino" />
-        </label>
-        <button type="submit">Enviar</button>
-      </form>
-    </fieldset>
+    <div class="supImf">
+      <img src="images/anime.jpg" alt="" class="anime3" />
+    </div>
+    <div class="main">
+      <div>
+        <img src="images/anime3.jpg" alt="" class="anime3" />
+      </div>
+      <fieldset class="caixa">
+        <h1 class="titulo">Qual isekai vai entrar?</h1>
+        <form action="#" class="form">
+          <label for="Email"> Habilidades Passivas: </label>
+          <input type="text" />
+          <label for="senha">Habilidades Secretas:</label>
+          <input type="password" />
+          <label for="tange">Nivel De Protagonismo:</label>
+          <input type="range" />
+          <div class="sexo">
+            <label for=""
+              >Blood-C
+
+              <input type="radio" name="s" value="Blood-C" />
+            </label>
+            <label for=""
+              >Boku No Pico
+
+              <input type="radio" name="s" value="Boku No Pico" />
+            </label>
+          </div>
+          <button type="submit">Entrar No Mundo Isekai</button>
+        </form>
+      </fieldset>
+      <div class="">
+        <img src="images/anime4.jpg" alt="" class="anime3" />
+      </div>
+    </div>
     <script>
       let btn = document.querySelector("button");
       btn.addEventListener("click", () => {
-        alert("Enviado");
+        alert("Você Esta Entrando No Mundo Isekai");
       });
     </script>
   </body>
