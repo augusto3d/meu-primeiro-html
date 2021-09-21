@@ -4,16 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      div {
-        width: 400px;
-        height: 400px;
-        background: red;
-      }
-    </style>
+    <link rel="stylesheet" href="css/estilo.css" />
     <title>Document</title>
   </head>
   <body>
-    <div>vcgfxcjhgkhkhbkhvghfg</div>
+    <fieldset class="caixa">
+      <img src="images/guto.jpg" class="foto" />
+      <h1 class="titulo">Formulario</h1>
+      <form action="#" class="form">
+        <label for="Email"> Email: </label>
+        <input type="text" />
+        <label for="senha">Senha:</label>
+        <input type="password" />
+        <label for="data">Data:</label>
+        <input type="date" />
+        <label for=""
+          >Masculino
+          <input type="radio" name="s" value="masculino" />
+        </label>
+        <label for=""
+          >Feminino
+          <input type="radio" name="s" value="feminino" />
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </fieldset>
+    <script>
+      let btn = document.querySelector("button");
+      btn.addEventListener("click", () => {
+        alert("Enviado");
+      });
+    </script>
   </body>
 </html>

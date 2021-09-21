@@ -1,0 +1,43 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  background: #00000070;
+}
+
+.foto {
+  height: 200px;
+  margin-left: 45%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+label {
+  text-align: center;
+}
+
+input {
+  margin: 0 auto;
+}
+button {
+  margin: 0 auto;
+  padding: 10px 15px;
+  margin-top: 8px;
+  border-radius: 23px;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: lightgrey;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: rgb(52, 213, 12);
+  color: rgb(255, 255, 255);
+}
